@@ -47,3 +47,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/cmkae_project/cmake_planning_demo/build/src/pnc_map/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/cmkae_project/cmake_planning_demo/build/src/show_result/cmake_install.cmake")
+endif()
+
