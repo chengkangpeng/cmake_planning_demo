@@ -7,6 +7,7 @@ project(planning
 )
 
 set(CMAKE_CXX_STANDARD 17)
+enable_testing()
 
 #变量设置
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
@@ -22,3 +23,4 @@ find_package(Eigen3 3.4 REQUIRED)
 
 #添加子目录
 add_subdirectory(src)
+add_subdirectory(test/map_test)
